@@ -1,0 +1,294 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+html{
+    scroll-padding: 70px;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+a:visited {
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+figure,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif , regular;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contenedor {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 12px;
+}
+
+header {
+    background-color: #660d81;
+    width: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+    height: 60px;
+    z-index: 4;
+}
+.logo img{
+    width: 250px;
+    margin-top: auto;
+}
+
+.dflex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-content: center;
+}
+
+nav {
+    width: 500px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+nav ul li a{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+
+nav ul li a:visited{
+    color: white;
+}
+
+nav ul li a:hover{
+    color: #b9a8d2;
+}
+
+h1{
+    color: white;
+    font-family: 'Archivo', sans-serif;
+}
+h2{
+    font-family: 'Archivo', sans-serif;
+}
+
+section h2{
+    color: aliceblue;
+    text-align: center;
+    margin: 40px 0;
+}
+#inicio{
+    padding-top:80px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url(img/fondo4.png);
+}
+#nosotras {
+    color: whitesmoke;
+    padding-top:25px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #336ea6;
+}
+#nosotras h1{
+    font-size: 50px;
+}
+#nosotras h2{
+    font-family: 'Quicksand', sans-serif, light;
+}
+#nosotras article {
+    width: 50%;
+    max-width: 700px;
+    text-align: justify;
+}
+.caja-dividida h2{
+    text-align: left;
+}
+.caja-dividida p{
+    text-align: left;
+}
+.caja-dividida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.caja-dividida2 h2{
+    text-align: right;
+}
+.caja-dividida2 p{
+    text-align: right;
+}
+.caja-dividida2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#servicios {
+    padding-bottom: 50px;
+    background-color: #660d81;
+    padding-top:20px;
+    padding-bottom: 50px;
+}
+#servicios p{
+    text-align: center;
+}
+#servicios h2 {
+    color:  #ffffff;
+    padding-bottom: 10px;
+}
+#servicios h3{
+    color:  #ffffff;
+}
+.contenedor-padre{
+    width: 100%;
+    display: flex;
+}
+.espacio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.espacio p{
+    width: 300px;
+    color: white;
+}
+#portfolio {
+    padding-top:50px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: url(img/celeste.png);
+}
+#portfolio h1{
+    padding-bottom: 20px;
+}
+#programas{
+    background-image: url(img/lila2.png);
+    padding-top:25px;
+    padding-bottom: 20px;
+}
+.galeria {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.galeria div {
+    width: 33%;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px    
+}
+.galeria p{
+    color: white;
+    font-size: 17px;
+}
+
+.ilustraciones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.ilustraciones figure {
+    width: 20%;
+    margin: 0 1%;
+    margin-bottom: 30px;
+}
+
+
+.ilustraciones figure figcaption {
+    text-align: center;
+    color: snow;
+    font-size: 20px;
+}
+
+.ilustraciones figure img {
+    width: 100%;
+}
+
+#contacto{
+    height: space-around;
+    padding-top: 20px;
+    background-image: url(img/fondo\ lila.png);
+    background-position: center;
+    padding-bottom: 40px;
+}
+#contacto div{
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px
+}
+#contacto label{
+    color: white;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#contacto img{
+    padding: 15px;
+    align-items: center;
+    width: 55px;
+}
+#contacto article{
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
+footer {
+    background-color: #660d81;
+    width: 100%;    
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+footer .contenedor p {
+    font-size: 20px;
+    color: snow;
+}
+.redes {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
